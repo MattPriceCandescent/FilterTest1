@@ -1,0 +1,34 @@
+{
+  "login": {
+    "signInLinkSelector": "a[href*='login'], a[href*='signin'], a[href*='sign-in'], button:has-text('Sign in'), button:has-text('Log in'), [data-testid='sign-in'], a:has-text('Sign in'), a:has-text('Log in')",
+    "usernameSelector": "input[name='username'], input[type='email'], #username, input[name='email']",
+    "passwordSelector": "input[name='password'], input[type='password'], #password",
+    "submitSelector": "button[type='submit'], input[type='submit'], [data-testid='login-submit'], button:has-text('Sign in'), button:has-text('Log in')"
+  },
+  "list": {
+    "listUrls": [],
+    "rowSelector": "table tbody tr, .product-row, .catalog-item, [data-product]",
+    "productLinkSelector": "a[href*='/en-US/apps/']",
+    "waitForSelector": "a[href*='/en-US/apps/']",
+    "nextPageSelector": "a[aria-label='Next page'], a:has-text('Next'), button:has-text('Next'), .pagination-next a",
+    "productLinkAttr": "href",
+    "maxProducts": 38,
+    "fields": {
+      "name": ".name, td:nth-child(1), [data-field='name']",
+      "provider": ".provider, td:nth-child(2), [data-field='provider']",
+      "integrationType": ".integration-type, td:nth-child(3)",
+      "timeline": ".timeline, td:nth-child(4)",
+      "tags": ".tags, td:nth-child(5)",
+      "logo": ".logo, [data-field='logo']"
+    }
+  },
+  "detail": {
+    "solutionName": "h1.sr-only, h1, [data-testid='solution-name'], .product-name, .application-name",
+    "providerName": "a.productCard_0_0_366_vendorLabel, a[class*='vendorLabel'], .productCard_0_0_366_vendorLabel .link_0_0_366_text, [data-e2e='link_0_0_366:anchor'], .provider-name, .vendor-name, a[href*='/vendor/']",
+    "description": "meta[name='description'], [data-testid='description'], .product-description, .description, .app-description, [role='article'] p",
+    "tagLine": "h3.productCard_0_0_366_caption, h3.mainProductCaption, [data-testid='productCard_0_0_366:captionmainProductCaption'], [data-e2e='productCard_0_0_366:captionmainProductCaption'], .tagline, .subtitle",
+    "tags": "span.badge_0_0_366_wrapper--category, [data-testid='badge_0_0_366:wrapper'], [data-e2e='badge_0_0_366:wrapper'], div.productCard_0_0_366_ratingWrapper span, .product-tag, .tag-list span",
+    "logoImageSelector": "img.productCard_0_0_366_image, img[data-testid='productCard_0_0_366:image'], .productCard_0_0_366_imageWrapper img, img[data-e2e='productCard_0_0_366:image']",
+    "heroImageSelector": "img.productImageViewer_slideImage, img[data-testid='productImageViewer:slideImage'], .imageZoom_0_0_366_imageWrapper img, img[data-e2e='productImageViewer:slideImage']"
+  }
+}

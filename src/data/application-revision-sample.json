@@ -1,0 +1,299 @@
+{
+  "globalMessage": "Please make some adjustments",
+  "fields": [
+    {
+      "fieldId": "step1.page1.existing-candescent-integration.q1",
+      "fieldLabel": "Do you already have an integration with Candescent?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.primary-contact.q1",
+      "fieldLabel": "Your Name",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.primary-contact.q2",
+      "fieldLabel": "Title",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.primary-contact.q3",
+      "fieldLabel": "Email address",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.primary-contact.q4",
+      "fieldLabel": "Phone number",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.q1",
+      "fieldLabel": "Company name",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.q2",
+      "fieldLabel": "Website",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.companyAddress",
+      "fieldLabel": "Company address",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.q3",
+      "fieldLabel": "How many years have you been in business?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.q4",
+      "fieldLabel": "Number of employees",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page1.your-company.q5",
+      "fieldLabel": "Existing clients",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.your-product-customers.q1",
+      "fieldLabel": "Your application description",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.your-product-customers.q2",
+      "fieldLabel": "Use cases",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.your-product-customers.q3",
+      "fieldLabel": "Average annual recurring revenue per client",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.your-product-customers.q4",
+      "fieldLabel": "Number of FI clients (optional)",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.your-product-customers.q5",
+      "fieldLabel": "What target segment of financial institutions (FIs) are you targeting with your solution?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-type.q1",
+      "fieldLabel": "SAML SSO",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-type.q2",
+      "fieldLabel": "OIDC SSO",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-type.q3",
+      "fieldLabel": "Aspects",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-type.q4",
+      "fieldLabel": "API Catalog Access",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-type.q5",
+      "fieldLabel": "Other",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-plan.q1",
+      "fieldLabel": "What Candescent solution are you looking to integrate with?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.integration-plan.q2",
+      "fieldLabel": "Upload Workflow file",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.data-use.q1",
+      "fieldLabel": "Will you be email or communicating directly to an end user on behalf of the FI?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.data-use.q2",
+      "fieldLabel": "Does your solution require access to or send PII?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.data-use.q3",
+      "fieldLabel": "Does your solution require access to or send card data (PCI)?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.data-use.q4",
+      "fieldLabel": "Does the solution utilize a redundant data center spanning different regions?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.project-timeline.q1",
+      "fieldLabel": "Tentative development start date",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page2.project-timeline.q2",
+      "fieldLabel": "Tentative development end date",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-contact.q1",
+      "fieldLabel": "Compliance and risk contact name",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-contact.q2",
+      "fieldLabel": "Compliance and risk contact email",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q1",
+      "fieldLabel": "Do you have a documented Disaster Recovery and Business Resiliency Program in place?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q2",
+      "fieldLabel": "Do you have a documented Security and Compliance Program in place?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q3",
+      "fieldLabel": "Do you have a documented SDLC process in place?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q4",
+      "fieldLabel": "Please upload audited financial statement",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q5",
+      "fieldLabel": "Please upload your SOC type 2",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step1.page3.compliance-documentation.q6",
+      "fieldLabel": "If unable to provide SOC2 or financial statement, please detail why and what compliance documentation you can't supply",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.data-history.q1",
+      "fieldLabel": "If as part of the product/service you provide, you have access to Candescent systems, please describe that access.",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.data-history.q2",
+      "fieldLabel": "Has your company suffered a data loss or security breach within the last 3 years?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.data-history.q3",
+      "fieldLabel": "Have any of your Third Party vendors suffered a data loss or security breach within the last 3 years?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.asset-management.q1",
+      "fieldLabel": "Do you have an asset management program for all your assets which tracks hardware and software throughout its life cycle?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.asset-management.q2",
+      "fieldLabel": "Do you have an asset classification scheme?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step2.page1.asset-management.q3",
+      "fieldLabel": "Are assets classified according to function and criticality?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page1.product-overview.q1",
+      "fieldLabel": "Does the solution utilize or redundant data center spanning different regions?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page1.product-overview.q2",
+      "fieldLabel": "Your application description",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page1.product-overview.q3",
+      "fieldLabel": "What target segment of financial institutions (FIs) are you targeting with your solution?",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page3.product-page.featured-media",
+      "fieldLabel": "Featured images",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page3.product-page.product-features",
+      "fieldLabel": "Product Features",
+      "flagForReview": false,
+      "reviewerComments": ""
+    },
+    {
+      "fieldId": "step3.page3.company-page.company-name",
+      "fieldLabel": "Company name",
+      "flagForReview": true,
+      "reviewerComments": "Please verify this is the legal entity name, we have a different one on file."
+    }
+  ]
+}

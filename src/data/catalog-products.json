@@ -1,0 +1,586 @@
+[
+  {
+    "id": "atm-location-services-123v4ye",
+    "name": "ATM Location Services",
+    "provider": "Wave2",
+    "description": "Wave2 delivers a mobile-first ATM & branch locator with an exceptional user experience, auto-updated multi-network location data, WCAG 2.2 ADA accessibility, seamless integration into websites and digital banking, and detailed tracking and reporting.\u201d",
+    "tagLine": "Auto-Updated Multi-Network ATM/Branch Locator",
+    "integrationType": "SAML SSO",
+    "timeline": "2 - 3 days est. integration time",
+    "tags": [
+      "Location"
+    ],
+    "logo": "wave2",
+    "logoPath": "/product-assets/atm-location-services-123v4ye-logo.png",
+    "heroPath": "/product-assets/atm-location-services-123v4ye-hero.png"
+  },
+  {
+    "id": "bill-pay-1nsi6h4",
+    "name": "Bill Pay",
+    "provider": "Fiserv",
+    "description": "Give your users peace of mind to seamlessly move money via bill pay, P2P payments and more.",
+    "tagLine": "Industry-leading digital payments solutions",
+    "integrationType": "OIDC SSO",
+    "timeline": "3 - 6 month est. integration time",
+    "tags": [
+      "Payments",
+      "Maintenance"
+    ],
+    "logo": "fiserv",
+    "logoPath": "/product-assets/bill-pay-1nsi6h4-logo.png",
+    "heroPath": "/product-assets/bill-pay-1nsi6h4-hero.png"
+  },
+  {
+    "id": "bill-pay-8tnt6p",
+    "name": "Bill Pay",
+    "provider": "FIS",
+    "description": "Synchronize all your transactional activities, payment, treasury, and financial networks with efficient digital experiences, reducing costs and eliminating inefficiencies. With predictability and visibility into your transactions, have confidence in increasing volumes without sacrificing speed, accuracy, or security.",
+    "tagLine": "Bringing the world\u2019s money into harmony",
+    "integrationType": "Aspects",
+    "timeline": "1 - 2 week est. integration time",
+    "tags": [
+      "Bill Pay"
+    ],
+    "logo": "fis",
+    "logoPath": "/product-assets/bill-pay-8tnt6p-logo.png",
+    "heroPath": "/product-assets/bill-pay-8tnt6p-hero.png"
+  },
+  {
+    "id": "chatbot---virtual-assistance-10gnj4h",
+    "name": "Chatbot - Virtual Assistance",
+    "provider": "Kasisto",
+    "description": "Kasisto uses trusted generative AI to boost digital engagement and answer 90% of inquiries, transforming experiences for 50M+ customers.",
+    "tagLine": "Reliable AI for Financial Services",
+    "integrationType": "API Catalog",
+    "timeline": "2 - 3 week est. integration time",
+    "tags": [
+      "Communications",
+      "Virtual Support"
+    ],
+    "logo": "kasisto",
+    "logoPath": "/product-assets/chatbot---virtual-assistance-10gnj4h-logo.png",
+    "heroPath": "/product-assets/chatbot---virtual-assistance-10gnj4h-hero.png"
+  },
+  {
+    "id": "continuous-verification-1fbwjbb",
+    "name": "Continuous Verification",
+    "provider": "Callsign",
+    "description": "Callsign makes digital identity seamless and secure, helping organizations build digital\ntrust and accountability into every online transaction. Callsign uniquely identifies\npeople across every digital interaction, journey and channel, protecting against threats\nsuch as account takeover and online scams.\n\nThe first true representation of identity online, Callsign identifies users by their unique\ncharacteristics. Our proprietary technology uses fraud models to detect bad actors\ncombined with the highest-fidelity AI models to build a digital DNA profile for each\nuser, emulating how people identify each other in the real world \u2013 letting people get on\nwith their digital life.",
+    "tagLine": "Continuous Verification",
+    "integrationType": "Other",
+    "timeline": "2 - 4 week est. integration time",
+    "tags": [
+      "Account Protection",
+      "Account Protection"
+    ],
+    "logo": "callsign",
+    "logoPath": "/product-assets/continuous-verification-1fbwjbb-logo.png",
+    "heroPath": "/product-assets/continuous-verification-1fbwjbb-hero.png"
+  },
+  {
+    "id": "credit-card-payments-7m1713",
+    "name": "Credit Card Payments",
+    "provider": "EPX",
+    "description": "With EPX Powered by North point of sale systems, payment processing and merchant services, we have everything you need to take your business straight to the top.",
+    "tagLine": "Full Service Merchant Services Acquirer",
+    "integrationType": "SAML SSO",
+    "timeline": "3 - 5 week est. integration time",
+    "tags": [
+      "Bill Pay"
+    ],
+    "logo": "epx",
+    "logoPath": "/product-assets/credit-card-payments-7m1713-logo.png",
+    "heroPath": "/product-assets/credit-card-payments-7m1713-hero.png"
+  },
+  {
+    "id": "credit-score-vylqlc",
+    "name": "Credit Score",
+    "provider": "SavvyMoney",
+    "description": "Help your users understand their credit score, factors that impact it and how to strengthen it.",
+    "tagLine": "Credit Score Solutions for Banks & Credit Unions",
+    "integrationType": "OIDC SSO",
+    "timeline": "4 - 6 week est. integration time",
+    "tags": [
+      "Credit Score"
+    ],
+    "logo": "savvymoney",
+    "logoPath": "/product-assets/credit-score-vylqlc-logo.png",
+    "heroPath": "/product-assets/credit-score-vylqlc-hero.png"
+  },
+  {
+    "id": "demos-and-tutorials-b7ldwq",
+    "name": "Demos and Tutorials",
+    "provider": "WaveCX",
+    "description": "WaveCX provides personalized content, in-app messaging, interactive demos, and training tools to increase customer and employee engagement.",
+    "tagLine": "Engagement platform for Financial Institutions",
+    "integrationType": "Aspects",
+    "timeline": "4 - 8 week est. integration time",
+    "tags": [
+      "Demos",
+      "Tutorials"
+    ],
+    "logo": "wavecx",
+    "logoPath": "/product-assets/demos-and-tutorials-b7ldwq-logo.png",
+    "heroPath": "/product-assets/demos-and-tutorials-b7ldwq-hero.png"
+  },
+  {
+    "id": "digital-customer-service-1mt8naw",
+    "name": "Digital Customer Service",
+    "provider": "Glia",
+    "description": "Glia unifies voice, digital, and AI support to deliver seamless, co-piloted customer experiences without data silos or context loss.",
+    "tagLine": "AI-Powered Interaction Platform for Voice & Digital",
+    "integrationType": "API Catalog",
+    "timeline": "2 - 3 days est. integration time",
+    "tags": [
+      "Virtual Support"
+    ],
+    "logo": "glia",
+    "logoPath": "/product-assets/digital-customer-service-1mt8naw-logo.png",
+    "heroPath": "/product-assets/digital-customer-service-1mt8naw-hero.png"
+  },
+  {
+    "id": "digital-customer-service-85kedd",
+    "name": "Digital Customer Service",
+    "provider": "LinkLive",
+    "description": "LinkLive is an AI-enabled, all-in-one communications and contact center platform trusted by the world\u2019s most highly regulated industries to securely connect with consumers in the channels of their choice: voice, video, chat, email.",
+    "tagLine": "Transform Your Conversations with LinkLive",
+    "integrationType": "Other",
+    "timeline": "3 - 5 days est. integration time",
+    "tags": [
+      "Engagement & Growth",
+      "Virtual Support"
+    ],
+    "logo": "linklive",
+    "logoPath": "/product-assets/digital-customer-service-85kedd-logo.png",
+    "heroPath": "/product-assets/digital-customer-service-85kedd-hero.png"
+  },
+  {
+    "id": "digital-investing-32r3yc",
+    "name": "Digital Investing",
+    "provider": "Eko",
+    "description": "Enables banks and credit unions to retain assets, increase deposits, and deepen member relationships by keeping investing on-platform.",
+    "tagLine": "",
+    "integrationType": "SAML SSO",
+    "timeline": "1 - 2 week est. integration time",
+    "tags": [
+      "Administrative Services"
+    ],
+    "logo": "eko",
+    "logoPath": "/product-assets/digital-investing-32r3yc-logo.png"
+  },
+  {
+    "id": "digital-invoicing-and-payments-1pznx3b",
+    "name": "Digital Invoicing and Payments",
+    "provider": "Autobooks",
+    "description": "Upgrade digital banking for small businesses by providing the tools they need to run their business. Autobooks enables invoicing, payment acceptance and accounting as features of digital banking.",
+    "tagLine": "Integrated Payment Acceptance and Accounting",
+    "integrationType": "OIDC SSO",
+    "timeline": "2 - 3 week est. integration time",
+    "tags": [
+      "Payments",
+      "Bill Pay"
+    ],
+    "logo": "autobooks",
+    "logoPath": "/product-assets/digital-invoicing-and-payments-1pznx3b-logo.png",
+    "heroPath": "/product-assets/digital-invoicing-and-payments-1pznx3b-hero.png"
+  },
+  {
+    "id": "digital-lending-hadx6u",
+    "name": "Digital Lending",
+    "provider": "MeridianLink",
+    "description": "Data-Driven Digital Lending, powered by MeridianLink\u00ae, delivers a cloud-based, data-centric platform that transforms how financial institutions originate loans and open accounts. With seamless integration, intelligent automation, and personalized experiences, this solution empowers banks and credit unions to grow relationships, increase efficiency, and stay compliant\u2014while delivering the digital-first experiences today\u2019s consumers expect.",
+    "tagLine": "Cloud-based digital lending platform",
+    "integrationType": "Aspects",
+    "timeline": "2 - 4 week est. integration time",
+    "tags": [
+      "Loan Engine"
+    ],
+    "logo": "meridianlink",
+    "logoPath": "/product-assets/digital-lending-hadx6u-logo.png",
+    "heroPath": "/product-assets/digital-lending-hadx6u-hero.png"
+  },
+  {
+    "id": "digital-storefrontloan-engine-xbs0re",
+    "name": "Digital Storefront/Loan Engine",
+    "provider": "Trustage",
+    "description": "Through Digital Storefront, financial institutions can determine which tailored offers they want to present to consumers, such as Certificate of Deposits, pre-approved loans, GAP provisional quoting, insurance, and credit cards.",
+    "tagLine": "For tailored financial services offers.",
+    "integrationType": "API Catalog",
+    "timeline": "2 - 4 month est. integration time",
+    "tags": [
+      "Loan Engine"
+    ],
+    "logo": "trustage",
+    "logoPath": "/product-assets/digital-storefrontloan-engine-xbs0re-logo.png",
+    "heroPath": "/product-assets/digital-storefrontloan-engine-xbs0re-hero.png"
+  },
+  {
+    "id": "direct-deposit-switching-1reru7k",
+    "name": "Direct-Deposit Switching",
+    "provider": "Atomic Fi",
+    "description": "Direct deposits are the foundation of long-term account growth and profitability.\nUsers can effortlessly move paychecks to your institution\u2014without ever leaving the app.",
+    "tagLine": "Capture deposits, build more loyalty",
+    "integrationType": "Other",
+    "timeline": "4 - 6 week est. integration time",
+    "tags": [
+      "Mobile Deposit",
+      "Account Opening"
+    ],
+    "logo": "atomic-fi",
+    "logoPath": "/product-assets/direct-deposit-switching-1reru7k-logo.png",
+    "heroPath": "/product-assets/direct-deposit-switching-1reru7k-hero.png"
+  },
+  {
+    "id": "estatements-cgan6q",
+    "name": "eStatements",
+    "provider": "Fiserv",
+    "description": "Fiserv eStatements\u2014featuring Statement Advantage and Statement Express\u2014deliver secure, paperless financial statements through online and mobile banking. These solutions enhance customer engagement, reduce operational costs, and support sustainability. Statement Advantage transforms statements into personalized communication tools with marketing messages, while Statement Express provides simple, secure access with historical archives and email alerts.",
+    "tagLine": "Digital delivery for secure financial statements",
+    "integrationType": "SAML SSO",
+    "timeline": "4 - 8 week est. integration time",
+    "tags": [
+      "Maintenance",
+      "Statements",
+      "eStatements"
+    ],
+    "logo": "fiserv",
+    "logoPath": "/product-assets/estatements-cgan6q-logo.png"
+  },
+  {
+    "id": "estatements-1riqtyc",
+    "name": "eStatements",
+    "provider": "InfoImage",
+    "description": "InfoIMAGE delivers trusted, cost-effective document and data solutions\u2014like statements, tax forms, and marketing\u2014seamlessly integrated with major core systems since 1984.",
+    "tagLine": "Printing and digital financial document delivery",
+    "integrationType": "OIDC SSO",
+    "timeline": "2 - 3 days est. integration time",
+    "tags": [
+      "Statements",
+      "Statement Delivery Options",
+      "eStatements"
+    ],
+    "logo": "infoimage",
+    "logoPath": "/product-assets/estatements-1riqtyc-logo.png"
+  },
+  {
+    "id": "family-banking-1bud0ql",
+    "name": "Family Banking",
+    "provider": "Greenlight",
+    "description": "Greenlight is a family-first fintech solution that helps kids & teens build smart money habits with a debit card & app. Partners benefit from an embedded, co-branded experience that drives engagement, attracts younger customers, & supports financial literacy.",
+    "tagLine": "The smart money solution for families",
+    "integrationType": "Aspects",
+    "timeline": "3 - 5 days est. integration time",
+    "tags": [
+      "Financial Education"
+    ],
+    "logo": "greenlight",
+    "logoPath": "/product-assets/family-banking-1bud0ql-logo.png",
+    "heroPath": "/product-assets/family-banking-1bud0ql-hero.png"
+  },
+  {
+    "id": "financial-wellness-1yvs7bt",
+    "name": "Financial Wellness",
+    "provider": "Zogo",
+    "description": "Zogo Finance offers a gamified financial wellness platform that teaches users personal finance concepts through bite-sized lessons and rewards them for learning.",
+    "tagLine": "Financial Wellness and Education",
+    "integrationType": "API Catalog",
+    "timeline": "1 - 2 week est. integration time",
+    "tags": [
+      "Personal Financial Management"
+    ],
+    "logo": "zogo",
+    "logoPath": "/product-assets/financial-wellness-1yvs7bt-logo.png",
+    "heroPath": "/product-assets/financial-wellness-1yvs7bt-hero.png"
+  },
+  {
+    "id": "gamify-onboarding-and-personaliz-1wzxea2",
+    "name": "Gamify Onboarding and Personalize Engagement",
+    "provider": "Swaystack",
+    "description": "Banks and credit unions turn new accounts into active, primary relationships with Swaystack, a digital onboarding and engagement platform. Using gamified journeys inside digital banking and across email and SMS, financial institutions leverage Swaystack to guide new account holders to take the actions that matter most, like funding, switching direct deposit, and adopting key products.",
+    "tagLine": "Achieve primacy and top-of-wallet status",
+    "integrationType": "Other",
+    "timeline": "2 - 3 week est. integration time",
+    "tags": [
+      "Engagement & Growth"
+    ],
+    "logo": "swaystack",
+    "logoPath": "/product-assets/gamify-onboarding-and-personaliz-1wzxea2-logo.png",
+    "heroPath": "/product-assets/gamify-onboarding-and-personaliz-1wzxea2-hero.png"
+  },
+  {
+    "id": "online-appointment-scheduling-4xzpds",
+    "name": "Online Appointment Scheduling",
+    "provider": "Engageware",
+    "description": "Engageware\u2019s Online Appointment Scheduling platform empowers organizations to deliver high-value customer engagement by making it easy for prospects and clients to book time with the right resources\u2014at the right moment. With omnichannel access, smart routing, and seamless calendar integration, Engageware helps businesses increase operational efficiency, reduce no-shows, and improve every stage of the customer journey.",
+    "tagLine": "Streamline scheduling, boost engagement",
+    "integrationType": "SAML SSO",
+    "timeline": "2 - 4 week est. integration time",
+    "tags": [
+      "Scheduling"
+    ],
+    "logo": "engageware",
+    "logoPath": "/product-assets/online-appointment-scheduling-4xzpds-logo.png",
+    "heroPath": "/product-assets/online-appointment-scheduling-4xzpds-hero.png"
+  },
+  {
+    "id": "online-forms-myr3uq",
+    "name": "Online Forms",
+    "provider": "Formstack",
+    "description": "Streamline workflows and create efficiencies by allowing users to fill out and submit information digitally.",
+    "tagLine": "Automate processes. Improve experiences.",
+    "integrationType": "OIDC SSO",
+    "timeline": "3 - 5 week est. integration time",
+    "tags": [
+      "Document Management"
+    ],
+    "logo": "formstack",
+    "logoPath": "/product-assets/online-forms-myr3uq-logo.png",
+    "heroPath": "/product-assets/online-forms-myr3uq-hero.png"
+  },
+  {
+    "id": "open-finance-1q7nnqu",
+    "name": "Open Finance",
+    "provider": "Ninth Wave",
+    "description": "The Ninth Wave / Candescent integration allows bank customers to remain in preferred business applications to perform daily reconciliation and payment initiation processes, without screen-scraping and manual uploads of data.",
+    "tagLine": "Share and Manage Financial Data",
+    "integrationType": "Aspects",
+    "timeline": "4 - 6 week est. integration time",
+    "tags": [
+      "Open Banking"
+    ],
+    "logo": "ninth-wave",
+    "logoPath": "/product-assets/open-finance-1q7nnqu-logo.png"
+  },
+  {
+    "id": "payhub-11wqofr",
+    "name": "Payhub",
+    "provider": "Paymentus",
+    "description": "Paymentus PayHub is a unified, cloud-based platform that streamlines billing, payment, and customer communication for financial institutions and billers. With support for multiple payment types\u2014including ACH, debit/credit cards, digital wallets, and real-time payments\u2014PayHub empowers users to pay how and when they want.\nThe platform delivers a seamless omnichannel experience across web, mobile, IVR, and in-person interactions, while providing billers with advanced analytics, automated notifications, and robust reconciliation tools. By consolidating services into a single, scalable hub, PayHub reduces complexity, enhances customer satisfaction, and drives operational efficiency.",
+    "tagLine": "The Next Generation of Payments",
+    "integrationType": "API Catalog",
+    "timeline": "4 - 8 week est. integration time",
+    "tags": [
+      "Payments"
+    ],
+    "logo": "paymentus",
+    "logoPath": "/product-assets/payhub-11wqofr-logo.png",
+    "heroPath": "/product-assets/payhub-11wqofr-hero.png"
+  },
+  {
+    "id": "payrailz-payment-platform-1cr74v8",
+    "name": "Payrailz Payment Platform",
+    "provider": "Jack Henry",
+    "description": "The Jack Henry Payrailz\u00ae Payment Platform is a next-generation, cloud-native, API-first, AI-enabled solution that empowers financial institutions to deliver smarter, faster, and more personalized payment experiences. From real-time person-to-person (P2P) payments to intelligent bill pay and account transfers, Payrailz helps banks and credit unions stay competitive, reduce friction, and improve financial health for consumers and businesses alike.",
+    "tagLine": "Next-Generation Digital Payments",
+    "integrationType": "Other",
+    "timeline": "2 - 3 days est. integration time",
+    "tags": [
+      "Payments"
+    ],
+    "logo": "jack-henry",
+    "logoPath": "/product-assets/payrailz-payment-platform-1cr74v8-logo.png"
+  },
+  {
+    "id": "personal-financial-management-1fgtkkl",
+    "name": "Personal Financial Management",
+    "provider": "MX",
+    "description": "Empower your users with tools to help improve their financial wellness and reach their financial goals.",
+    "tagLine": "Connect financial accounts and surface insights from transaction data.",
+    "integrationType": "SAML SSO",
+    "timeline": "3 - 5 days est. integration time",
+    "tags": [
+      "Budgeting",
+      "Intelligence & Connectivity"
+    ],
+    "logo": "mx",
+    "logoPath": "/product-assets/personal-financial-management-1fgtkkl-logo.png",
+    "heroPath": "/product-assets/personal-financial-management-1fgtkkl-hero.png"
+  },
+  {
+    "id": "positive-pay-xf1hrh",
+    "name": "Positive Pay",
+    "provider": "AFS",
+    "description": "Advanced Fraud Solutions (AFS) delivers omnichannel fraud defense, preventing check, ACH, and wire fraud before it impacts your bottom line. Our next-gen Positive Pay solution provides ironclad protection for high-value business accounts, reducing risk and reputational damage.",
+    "tagLine": "Check, ACH, and Reverse Positive Pay",
+    "integrationType": "OIDC SSO",
+    "timeline": "1 - 2 week est. integration time",
+    "tags": [
+      "Positive Pay",
+      "Reverse Positive Pay",
+      "Account Protection"
+    ],
+    "logo": "afs",
+    "logoPath": "/product-assets/positive-pay-xf1hrh-logo.png",
+    "heroPath": "/product-assets/positive-pay-xf1hrh-hero.png"
+  },
+  {
+    "id": "promosuite-premium---push-and-em-ffcpy8",
+    "name": "Promosuite Premium - Push and Email marketing",
+    "provider": "Pulsate",
+    "description": "Offer a mobile-first, multi-message engagement platform.",
+    "tagLine": "Mobile Engagement Platform for Financial Institutions",
+    "integrationType": "Aspects",
+    "timeline": "2 - 3 week est. integration time",
+    "tags": [
+      "Marketing"
+    ],
+    "logo": "pulsate",
+    "logoPath": "/product-assets/promosuite-premium---push-and-em-ffcpy8-logo.png",
+    "heroPath": "/product-assets/promosuite-premium---push-and-em-ffcpy8-hero.png"
+  },
+  {
+    "id": "purchase-rewards-59skeo",
+    "name": "Purchase Rewards",
+    "provider": "Valuedynamx (Collinson Group)",
+    "description": "Turn spending into rewards with Purchase Rewards! Cardmembers earn cashback on everyday purchases from top brands in retail, travel, and more\u2014driving engagement, loyalty, and stronger connections. More rewards, more value, more loyalty.",
+    "tagLine": "Loyalty Program providing targeted, cash-back offers",
+    "integrationType": "API Catalog",
+    "timeline": "2 - 4 week est. integration time",
+    "tags": [
+      "Rewards",
+      "Rewards"
+    ],
+    "logo": "valuedynamx-collinson-group",
+    "logoPath": "/product-assets/purchase-rewards-59skeo-logo.png",
+    "heroPath": "/product-assets/purchase-rewards-59skeo-hero.png"
+  },
+  {
+    "id": "rdc-khbedm",
+    "name": "RDC",
+    "provider": "Vertifi",
+    "description": "Give consumers and businesses the freedom to conveniently deposit checks at home, in the office or on the go from their mobile devices.",
+    "tagLine": "Secure mobile check deposit",
+    "integrationType": "Other",
+    "timeline": "3 - 5 week est. integration time",
+    "tags": [
+      "Remote Deposit"
+    ],
+    "logo": "vertifi",
+    "logoPath": "/product-assets/rdc-khbedm-logo.png"
+  },
+  {
+    "id": "takedown-service-wiejrj",
+    "name": "Takedown service",
+    "provider": "Outseer",
+    "description": "FraudAction provides detection and prevention of phishing and scams targeting your customers. We deliver customized cyberfraud intelligence like compromised card data to protect your customers, your reputation, and your bottom line",
+    "tagLine": "Digital Risk Protection & Cyber-Intelligence Services",
+    "integrationType": "SAML SSO",
+    "timeline": "4 - 6 week est. integration time",
+    "tags": [
+      "Alerts",
+      "Phishing",
+      "Impersonation"
+    ],
+    "logo": "outseer",
+    "logoPath": "/product-assets/takedown-service-wiejrj-logo.png",
+    "heroPath": "/product-assets/takedown-service-wiejrj-hero.png"
+  },
+  {
+    "id": "transaction-monitoring---anomaly-bjpgde",
+    "name": "Transaction Monitoring - Anomaly Detection",
+    "provider": "NICE Actimize",
+    "description": "Real-Time Anomaly Detection for Retail and Business powered by NICE Actimize Xceed provides a comprehensive, API-based real-time fraud monitoring and prevention solution for retail and business digital banking. Prevent unauthorized payments with the most accurate risk-scoring and the lowest false-positive rates available.",
+    "tagLine": "Real Time Anomaly Detection Services",
+    "integrationType": "OIDC SSO",
+    "timeline": "4 - 8 week est. integration time",
+    "tags": [
+      "Account Protection",
+      "Transaction Review"
+    ],
+    "logo": "nice-actimize",
+    "logoPath": "/product-assets/transaction-monitoring---anomaly-bjpgde-logo.png",
+    "heroPath": "/product-assets/transaction-monitoring---anomaly-bjpgde-hero.png"
+  },
+  {
+    "id": "transfer-now-cashedge-external-t-noekjg",
+    "name": "Transfer Now (CashEdge) External Transfers",
+    "provider": "Fiserv",
+    "description": "TransferNow, formerly known as CashEdge, is Fiserv\u2019s external account-to-account (A2A) transfer solution. It enables consumers and small businesses to securely move money between accounts at different financial institutions with flexible delivery options, including same-day and instant transfers. Built with advanced security, broad network connectivity, and seamless digital integration, TransferNow simplifies money movement while enhancing customer satisfaction.",
+    "tagLine": "TransferNow - TransferNow A2A Platform: Moving Money Matters",
+    "integrationType": "Aspects",
+    "timeline": "2 - 3 days est. integration time",
+    "tags": [
+      "Transfers",
+      "Transfers"
+    ],
+    "logo": "fiserv",
+    "logoPath": "/product-assets/transfer-now-cashedge-external-t-noekjg-logo.png"
+  },
+  {
+    "id": "turbotax---online-tax-preparatio-1d2ozpe",
+    "name": "TurboTax - Online Tax Preparation",
+    "provider": "TurboTax by Intuit",
+    "description": "Position your institution as a trusted advisor, providing access to a leading tax solution.  Keep every dollar you deserve this tax season. With TurboTax your maximum refund is guaranteed, whether you choose to have an expert file for you, file with expert help, or file yourself with AI-powered guidance along the way.",
+    "tagLine": "Online Tax Preparation Services",
+    "integrationType": "API Catalog",
+    "timeline": "3 - 5 days est. integration time",
+    "tags": [
+      "Taxes"
+    ],
+    "logo": "turbotax-by-intuit",
+    "logoPath": "/product-assets/turbotax---online-tax-preparatio-1d2ozpe-logo.png",
+    "heroPath": "/product-assets/turbotax---online-tax-preparatio-1d2ozpe-hero.png"
+  },
+  {
+    "id": "voevoi-mvtjw3",
+    "name": "VOE/VOI",
+    "provider": "Plaid",
+    "description": "Accelerate account opening and funding with Plaid's instant account verification in Candescent, boosting conversion, engagement and security. Enable customers to connect accounts in seconds with best-in-class coverage and seamless ACH compatibility.",
+    "tagLine": "Seamless, secure bank account verification",
+    "integrationType": "Other",
+    "timeline": "1 - 2 week est. integration time",
+    "tags": [
+      "Transfers",
+      "Account Verification",
+      "Account Opening"
+    ],
+    "logo": "plaid",
+    "logoPath": "/product-assets/voevoi-mvtjw3-logo.png",
+    "heroPath": "/product-assets/voevoi-mvtjw3-hero.png"
+  },
+  {
+    "id": "website-accessibility-frgu78",
+    "name": "Website Accessibility",
+    "provider": "AudioEye",
+    "description": "Candescent Website Accessibility Assistance, powered by AudioEye, provides efficient and cost-effective solutions for web accessibility compliance. We enhance usability with automated and engineering-generated tools to ensure inclusivity and manage accessibility effectively.",
+    "tagLine": "Digital accessibility made easy",
+    "integrationType": "SAML SSO",
+    "timeline": "2 - 3 week est. integration time",
+    "tags": [
+      "ADA Compliance"
+    ],
+    "logo": "audioeye",
+    "logoPath": "/product-assets/website-accessibility-frgu78-logo.png",
+    "heroPath": "/product-assets/website-accessibility-frgu78-hero.png"
+  },
+  {
+    "id": "zelle-and-zelle-small-business-1m9p29u",
+    "name": "Zelle and Zelle Small Business",
+    "provider": "FIS",
+    "description": "As of March 2021, nearly 7,000 financial institutions are represented in the Zelle\u00ae Network based on their customers\u2019 use of the Zelle\u00ae common mobile app (Source: Zelle\u00ae Network data) . With the FIS\u00ae Zelle\u00ae implementation, you can quickly add P2P payments to your mobile banking app\u2019s capabilities.",
+    "tagLine": "Experience higher engagement and transaction volumes",
+    "integrationType": "OIDC SSO",
+    "timeline": "2 - 4 week est. integration time",
+    "tags": [
+      "Payments",
+      "Zelle"
+    ],
+    "logo": "fis",
+    "logoPath": "/product-assets/zelle-and-zelle-small-business-1m9p29u-logo.png"
+  },
+  {
+    "id": "zelle-zelle-smb-1agy1ql",
+    "name": "Zelle, Zelle SMB",
+    "provider": "Fiserv",
+    "description": "Enable users to send, request, or receive money with Candescent Digital Banking.",
+    "tagLine": "Zelle\u00ae with Fiserv \u2013 A fast, easy, and secure way to send and receive money",
+    "integrationType": "Aspects",
+    "timeline": "3 - 5 week est. integration time",
+    "tags": [
+      "Payments"
+    ],
+    "logo": "fiserv",
+    "logoPath": "/product-assets/zelle-zelle-smb-1agy1ql-logo.png",
+    "heroPath": "/product-assets/zelle-zelle-smb-1agy1ql-hero.png"
+  }
+]

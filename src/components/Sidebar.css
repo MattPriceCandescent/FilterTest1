@@ -1,0 +1,89 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.sidebar-nav {
+  padding: 16px 0;
+}
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+  padding: 0 20px 8px;
+  text-transform: uppercase;
+}
+
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-list li {
+  margin: 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 20px;
+  font-size: 0.875rem;
+  color: #374151;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  border-left: 3px solid transparent;
+}
+
+.sidebar-link:hover {
+  background: #f9fafb;
+  color: #1a1a1a;
+}
+
+.sidebar-link-active {
+  background: #eff6ff;
+  color: #2563eb;
+  font-weight: 500;
+  border-left-color: #2563eb;
+}
+
+.sidebar-link-active:hover {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.sidebar-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.sidebar-link-active .sidebar-link-icon {
+  color: #2563eb;
+}
+
+.sidebar-list-links .sidebar-quick-link {
+  display: block;
+  padding: 8px 20px;
+  font-size: 0.875rem;
+  color: #2563eb;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.sidebar-list-links .sidebar-quick-link:hover {
+  background: #f9fafb;
+  text-decoration: underline;
+}
