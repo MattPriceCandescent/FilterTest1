@@ -18,8 +18,6 @@ dist-ssr
 .env.*.local
 *.env
 
-# Downloaded product assets (optional: remove this line to commit sample images)
-public/product-assets/
 
 # Editor directories and files
 .vscode/*
