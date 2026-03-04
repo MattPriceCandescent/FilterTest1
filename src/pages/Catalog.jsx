@@ -645,7 +645,7 @@ export default function Catalog() {
       {/* Chips row: active = blue + white X in circle, inactive = gray, More (n) with caret — 1:1 spec */}
       <div className="catalog-chips-row" ref={chipsRowRef}>
         <div className="catalog-chips">
-          {chipItems.slice(0, visibleChipCount).map(({ tag, active }) => {
+          {chipItems.slice(0, chipItems.length > visibleChipCount ? visibleChipCount + 1 : visibleChipCount).map(({ tag, active }) => {
             const count = active ? (tagContributionCounts[tag] ?? 0) : (tagCounts[tag] ?? 0);
             return (
             <button
@@ -670,6 +670,9 @@ export default function Catalog() {
             </button>
             );
           })}
+          {chipItems.length > visibleChipCount && (
+            <div className="catalog-chips-fade" aria-hidden="true" />
+          )}
         </div>
         {chipItems.length > visibleChipCount && (
           <div className="catalog-chips-more" ref={chipsMoreRef}>
