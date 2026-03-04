@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding: 0 24px;
+  padding: 8px 24px 0;
   background: unset;
   background-color: rgba(250, 250, 250, 1);
   position: relative;
@@ -53,7 +53,7 @@
   flex-wrap: nowrap;
   align-items: center;
   gap: 12px;
-  padding: 0px 0 8px;
+  padding: 0px 0 4px;
   margin-bottom: 0;
   width: 100%;
 }
@@ -403,10 +403,25 @@
   background: #d0d0d0;
 }
 
+.catalog-chips-more-btn--open {
+  background: #1976D2;
+  color: #fff;
+}
+
+.catalog-chips-more-btn--open:hover {
+  background: #1565c0;
+}
+
+.catalog-chips-more-btn--open .catalog-chevron {
+  color: rgba(255, 255, 255, 0.8);
+  transform: rotate(180deg);
+}
+
 .catalog-chips-more-btn .catalog-chevron {
   width: 16px;
   height: 16px;
   color: #5f6368;
+  transition: transform 0.2s ease, color 0.15s;
 }
 
 .catalog-result-row {
@@ -621,10 +636,10 @@
   padding: 4px 12px;
 }
 
-.catalog-card-logo-area .product-logo {
-  font-size: 1rem;
+#linklive-full-logo {
+  object-fit: cover;
+  padding: 0px 0px;
 }
-
 .catalog-card-logo-area img[src="/product-assets/digital-customer-service-85kedd-logo.png"] {
   object-fit: fill;
   padding: 0;

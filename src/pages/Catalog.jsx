@@ -35,22 +35,16 @@ function SearchIconSvg({ className }) {
 
 function GridViewIconSvg() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="3" width="7" height="7" rx="1" />
-      <rect x="14" y="3" width="7" height="7" rx="1" />
-      <rect x="3" y="14" width="7" height="7" rx="1" />
-      <rect x="14" y="14" width="7" height="7" rx="1" />
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path d="M4 18H6.5V15.5H4V18ZM4 13.25H6.5V10.75H4V13.25ZM4 8.5H6.5V6H4V8.5ZM17.5 6V8.5H20V6H17.5ZM13 8.5H15.5V6H13V8.5ZM17.5 18H20V15.5H17.5V18ZM17.5 13.25H20V10.75H17.5V13.25ZM8.5 18H11V15.5H8.5V18ZM13 18H15.5V15.5H13V18ZM8.5 8.5H11V6H8.5V8.5ZM13 13.25H15.5V10.75H13V13.25ZM8.5 13.25H11V10.75H8.5V13.25Z" fill="currentColor" />
     </svg>
   );
 }
 
 function WideViewIconSvg() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="2" y="5" width="8" height="5" rx="1" />
-      <rect x="14" y="5" width="8" height="5" rx="1" />
-      <rect x="2" y="14" width="8" height="5" rx="1" />
-      <rect x="14" y="14" width="8" height="5" rx="1" />
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path d="M21 8H3V4H21V8ZM21 10H3V14H21V10ZM21 16H3V20H21V16Z" fill="currentColor" />
     </svg>
   );
 }
@@ -144,7 +138,7 @@ function buildGradientBackground(r, g, b, variant) {
   }
 }
 
-function ProductLogo({ name, logoPath, onColorExtracted }) {
+function ProductLogo({ name, logoPath, onColorExtracted, id }) {
   const initials = (name || '')
     .split(/\s+/)
     .map((w) => w[0])
@@ -154,6 +148,7 @@ function ProductLogo({ name, logoPath, onColorExtracted }) {
   if (logoPath) {
     return (
       <img
+        id={id}
         src={assetUrl(logoPath)}
         alt=""
         className="product-logo product-logo-img"
@@ -168,7 +163,7 @@ function ProductLogo({ name, logoPath, onColorExtracted }) {
     );
   }
   return (
-    <div className="product-logo" title={name}>
+    <div id={id} className="product-logo" title={name}>
       {initials}
     </div>
   );
@@ -404,15 +399,6 @@ export default function Catalog() {
     return [...selected, ...unselected];
   }, [selectedTags, allTags]);
 
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (chipsMoreRef.current && !chipsMoreRef.current.contains(e.target)) {
-        setChipsMoreOpen(false);
-      }
-    };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
 
   useLayoutEffect(() => {
     const row = chipsRowRef.current;
@@ -685,7 +671,7 @@ export default function Catalog() {
             <button
               ref={chipsMoreButtonRef}
               type="button"
-              className="catalog-chips-more-btn"
+              className={`catalog-chips-more-btn${chipsMoreOpen ? ' catalog-chips-more-btn--open' : ''}`}
               onClick={() => setChipsMoreOpen((o) => !o)}
               aria-expanded={chipsMoreOpen}
               aria-haspopup="true"
@@ -697,11 +683,16 @@ export default function Catalog() {
             <Menu
               anchorEl={chipsMoreButtonRef.current}
               open={chipsMoreOpen}
-              onClose={() => setChipsMoreOpen(false)}
+              onClose={(_, reason) => {
+                if (reason === 'backdropClick' || reason === 'escapeKeyDown') {
+                  setChipsMoreOpen(false);
+                }
+              }}
               anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
               transformOrigin={{ vertical: 'top', horizontal: 'right' }}
               slotProps={{
                 paper: {
+                  onClick: (e) => e.stopPropagation(),
                   sx: {
                     mt: 1.5,
                     minWidth: 200,
@@ -801,6 +792,7 @@ export default function Catalog() {
                     name={product.name}
                     logoPath={product.logoPath}
                     onColorExtracted={(color) => handleColorExtracted(product.id, color)}
+                    id={product.id === 'digital-customer-service-85kedd' ? 'linklive-full-logo' : undefined}
                   />
                 </div>
               </div>
@@ -862,6 +854,7 @@ export default function Catalog() {
                       name={product.name}
                       logoPath={product.logoPath}
                       onColorExtracted={(color) => handleColorExtracted(product.id, color)}
+                      id={product.id === 'digital-customer-service-85kedd' ? 'linklive-full-logo' : undefined}
                     />
                   </div>
                 )}
@@ -873,6 +866,7 @@ export default function Catalog() {
                       name={product.name}
                       logoPath={product.logoPath}
                       onColorExtracted={(color) => handleColorExtracted(product.id, color)}
+                      id={product.id === 'digital-customer-service-85kedd' ? 'linklive-full-logo-wide' : undefined}
                     />
                     <span className="catalog-card-wide-name">{product.name}</span>
                   </div>
