@@ -10,6 +10,12 @@ import Checkbox from '@mui/material/Checkbox';
 import catalogProducts from '../data/catalog-products.json';
 import './Catalog.css';
 
+const BASE = import.meta.env.BASE_URL;
+function assetUrl(path) {
+  if (!path) return path;
+  return BASE.replace(/\/$/, '') + (path.startsWith('/') ? path : '/' + path);
+}
+
 function ChevronDownIcon({ className }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -148,7 +154,7 @@ function ProductLogo({ name, logoPath, onColorExtracted }) {
   if (logoPath) {
     return (
       <img
-        src={logoPath}
+        src={assetUrl(logoPath)}
         alt=""
         className="product-logo product-logo-img"
         loading="lazy"
@@ -842,7 +848,7 @@ export default function Catalog() {
                 {product.heroPath ? (
                   <img
                     className="catalog-card-wide-hero-img"
-                    src={product.heroPath}
+                    src={assetUrl(product.heroPath)}
                     alt=""
                     loading="lazy"
                     onLoad={(e) => {
