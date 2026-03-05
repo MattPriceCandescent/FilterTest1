@@ -24,6 +24,19 @@ function ChevronDownIcon({ className }) {
   );
 }
 
+function NothingFoundSvg({ className }) {
+  return (
+    <svg className={className} width="124" height="94" viewBox="0 0 124 94" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path d="M41.7529 80.9153C26.8688 65.7765 27.2285 41.092 36.1962 40.8384C45.1639 40.5847 52.6547 59.9933 46.971 81.9299L41.7529 80.9153V80.9153Z" fill="#CFEFD8"/>
+      <path d="M21.4688 62.5719C16.8136 65.9539 25.5866 79.1523 38.9599 81.7733L42.0916 80.4205C37.1359 66.7487 26.1241 59.1899 21.4646 62.5719H21.4688Z" fill="#CFEFD8"/>
+      <path d="M95.9951 81.5537C87.2983 81.4776 60.3443 81.1394 43.9874 80.1587C13.6562 78.3408 -11.114 81.3424 5.15824 84.7751C9.7077 85.7348 -3.40745 91.4842 28.6969 92.782C56.8782 93.9235 85.6097 91.4884 99.512 90.44C113.419 89.3916 119.83 87.5357 122.809 86.6986C125.429 85.963 126.394 81.8243 95.9909 81.5537H95.9951Z" fill="#F5F5F5"/>
+      <path d="M28.8615 46.0467C24.0454 40.2931 21.7559 33.0218 22.4203 25.5686C23.0848 18.0986 26.627 11.3303 32.4037 6.51943C38.1636 1.72965 45.43 -0.544759 52.87 0.110507C68.2874 1.48022 79.7266 15.1224 78.3554 30.5275C77.691 38.006 74.1361 44.7743 68.3593 49.5894C62.6079 54.3792 55.3457 56.6494 47.9058 55.9941C40.4447 55.3304 33.6818 51.8004 28.8657 46.0467H28.8615ZM64.9906 45.5648C69.7009 41.6417 72.5829 36.1374 73.1246 30.0625C74.2419 17.5321 64.9483 6.4391 52.4045 5.33149C46.3526 4.7946 40.4447 6.64203 35.7682 10.544C31.0622 14.4629 28.1802 19.9629 27.6384 26.0294C27.101 32.0959 28.9589 38.006 32.8862 42.6859C36.8009 47.3615 42.3068 50.2362 48.3671 50.7773C54.4104 51.3142 60.3184 49.4626 64.9906 45.5648Z" fill="#C3D3E4"/>
+      <path opacity="0.31" d="M74.424 30.1765C75.6047 16.9317 65.7779 5.20457 52.5231 4.03777C46.1242 3.47551 39.8819 5.42862 34.9389 9.54623C29.9662 13.6892 26.9191 19.502 26.3436 25.9152L23.999 25.708C23.999 25.708 24.0033 25.6742 24.0033 25.6573C24.6381 18.6269 27.9814 12.2645 33.4238 7.73685C38.8451 3.2134 45.7053 1.07005 52.722 1.6915C67.2676 2.98089 78.0551 15.8495 76.7643 30.3837L74.4155 30.1808L74.424 30.1765Z" fill="#F5F5F5"/>
+      <path d="M74.9052 49.936L67.646 56.0078C67.2223 56.3622 67.1665 56.9925 67.5213 57.4158L91.0202 85.4503C91.375 85.8735 92.0061 85.9294 92.4297 85.5751L99.689 79.5033C100.113 79.149 100.168 78.5186 99.8136 78.0953L76.3147 50.0608C75.9599 49.6376 75.3289 49.5817 74.9052 49.936Z" fill="#D5ECFC"/>
+    </svg>
+  );
+}
+
 function SearchIconSvg({ className }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -740,7 +753,7 @@ export default function Catalog() {
         </span>
         {isFiltered && (
           <button type="button" className="catalog-reset-btn" onClick={resetAll}>
-            Reset
+            Clear filters
           </button>
         )}
       </div>
@@ -760,6 +773,7 @@ export default function Catalog() {
       <div className="catalog-scroll-area" ref={scrollAreaRef}>
       {totalFiltered === 0 && (
         <div className="catalog-empty" role="status">
+          <NothingFoundSvg className="catalog-empty-graphic" />
           <p>No products found with your search and filters.</p>
           <button type="button" className="catalog-empty-clear" onClick={clearFilters}>
             Clear search and filters
@@ -807,7 +821,7 @@ export default function Catalog() {
                   {(product.description?.length || 0) > 120 ? '…' : ''}
                 </p>
                 <div className="product-tags">
-                  {(product.tags || []).slice(0, 1).map((tag) => (
+                  {(product.tags || []).map((tag) => (
                     <span key={tag} className="product-tag">{tag}</span>
                   ))}
                 </div>
@@ -871,7 +885,7 @@ export default function Catalog() {
                     <span className="catalog-card-wide-name">{product.name}</span>
                   </div>
                   <div className="product-tags">
-                    {(product.tags || []).slice(0, 1).map((tag) => (
+                    {(product.tags || []).map((tag) => (
                       <span key={tag} className="product-tag">{tag}</span>
                     ))}
                   </div>
@@ -883,8 +897,7 @@ export default function Catalog() {
                   {product.tagLine || product.name}
                 </h3>
                 <p className="catalog-card-wide-description">
-                  {product.description?.replace(/\n/g, ' ').slice(0, 160)}
-                  {(product.description?.length || 0) > 160 ? '…' : ''}
+                  {product.description?.replace(/\n/g, ' ')}
                 </p>
                 <div className="catalog-card-wide-meta">
                   <span className="integration">{product.integrationType}</span>

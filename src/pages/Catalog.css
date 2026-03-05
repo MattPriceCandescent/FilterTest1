@@ -468,11 +468,21 @@
 
 /* Empty state */
 .catalog-empty {
-  padding: 48px 24px;
+  padding: 64px 24px 48px;
   text-align: center;
-  background: #f9fafb;
+  background: rgba(255, 255, 255, 1);
   border: 1px solid #e5e7eb;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-empty-graphic {
+  width: 160px;
+  height: auto;
+  margin-bottom: 20px;
+  opacity: 0.85;
 }
 
 .catalog-empty p {
@@ -702,7 +712,8 @@
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  height: 220px;
+  height: 240px;
+  max-height: 240px;
   padding: 12px;
   background: #fff;
   border: 1px solid rgba(224, 224, 224, 1);
@@ -735,6 +746,7 @@
   max-height: 100%;
   width: auto;
   height: auto;
+  object-fit: contain;
   display: block;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -771,7 +783,6 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
-  overflow: hidden;
 }
 
 .catalog-card-wide-top-row {
@@ -826,6 +837,10 @@
   color: #6b7280;
   line-height: 1.45;
   margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .catalog-card-wide-meta {

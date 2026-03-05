@@ -87,3 +87,9 @@
   background: #f9fafb;
   text-decoration: underline;
 }
+
+@media (max-width: 880px) {
+  .sidebar {
+    display: none;
+  }
+}
